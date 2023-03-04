@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tryt Programmer</title>
+    <link rel="icon" type="image/x-icon" href="PlatyBee_Logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+        <header>
+            <img href="#" src="Logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#lang">Languages</a></li>
+                <li><a href="#cont">Contact</a></li>
+            </ul>
+        </header>
+        </div>
+        <div class="content">
+            <h1> Programmer Tryt</h1>
+            <p>Making Scripts with Passion</p>
+            <div>
+                <a href="https://www.youtube.com/channel/UCATGOeuKkTPCAma3D2Fp4gQ">
+                <button type="button"><span></span>Youtube</button> </a>
+                <a href="https://www.tiktok.com/@platybee">
+                <button type="button"><span></span>TikTok  </button> </a>
+                <a href="https://github.com/TrytPL">
+                <button type="button"><span></span>GitHub</button> </a>
+            </div>
+        </div>
+        </div>
+<center>
+    <div class="sec1" id="about">
+        <h1>About Me</h1>
+    </div>
+    <div class="sec1" id="project">
+        <h1>Projects</h1>
+    </div>
+    <div class="sec1" id="lang">
+        <h1>Languages</h1> <br>
+        <img width="200px" style="padding-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> <br>
+        <img width="200px" style="padding-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> <br>
+        <img width="200px" style="padding-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> <br>
+        <img width="200px" style="padding-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" /> <br>
+    </div>
+    <div class="sec1" id="cont">
+        <h1>Contact</h1>
+        <p> You can contact me via email <br>
+        trytpl1@gmail.com<br> </p>
+    </div>
+</center>
+    <script>
+        let header = document.querySelector('header')
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            header.style.top = value * 0.75 + 'px';
+        })
+    </script>
+</body>
+</html>
